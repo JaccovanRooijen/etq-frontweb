@@ -43,11 +43,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een stuk lastiger. Met name het positioneren en schalen van afbeeldingen heb ik moeite mee. Verder is de footer goed gelukt met flexbox en heb ik een Toppage button toegevoegd. Daarnaast heb ik ook een collapsible toegevoegd aan mijn pagina.
 
 **Screenshot(s):**
-![](Schermafbeelding1.png)
-![](Schermafbeelding2.png)
-![](Schermafbeelding3.png)
-![](Schermafbeelding4.png)
-![](Schermafbeelding5.png)
+![](screenshots/Schermafbeelding1.png)
+![](screenshots/Schermafbeelding2.png)
+![](screenshots/Schermafbeelding3.png)
+![](screenshots/Schermafbeelding4.png)
+![](screenshots/Schermafbeelding5.png)
 
 
 -screenshot(s) van hoe ver je bent-
