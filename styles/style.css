@@ -3,11 +3,12 @@
   box-sizing:border-box;  
 }
 body{
-    margin: 0;
+    margin-left: 0.5em;
 }
 img{
     width: 25em;
     height: 25em;
+
 }
 
 H1{
@@ -26,52 +27,26 @@ p{
     font-family: Raleway; 
 }
 
+/*nav*/
 
 
 
-.collapsible {
-  background-color: #ffffff;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-.active, .collapsible:hover {
-  background-color: #ffffff;
-}
-
-.content {
-  padding: 0 1em;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  background-color: #ffffff;
-}
-    
-img{
-  position:relative;
-}
-////* SLIDER*///
+/* SLIDER*/
 
 * {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
+.slides {display: none;}
 img {vertical-align: middle;}
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
+.carrousel {
+  max-width: 25em;
   position: relative;
-  margin: auto;
+
 }
-.slideshow-container img{
+.carrousel img{
     height: 38em;
 }
-/* Caption text */
-.text {
+.tekst-in-foto {
   color: #ffffff;
   font-size: 35px;
   padding: 8px 12px;
@@ -81,18 +56,17 @@ img {vertical-align: middle;}
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
+.nummertekst {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
   
 }
-.stip{
-    text-align: center;
+.stippen{
+    margin-left: 10em;
 }
-/* The dots/bullets/indicators */
+
 .dot {
   height: 15px;
   width: 15px;
@@ -125,7 +99,70 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+
+
+.collapsible {
+  background-color: #ffffff;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ffffff;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+content .active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+/*top-button*/
+
+#top{
+	color: black;
+	position: fixed;
+	bottom: 1em;
+	right: 1em;
+	font-weight: 600;
+	border-radius: 50%
+}
+
+#top:active{
+	background-color: darkgrey;
+}
+
+
+
+/*footer*/
+
+
+ul{
+	display:flex;
+	list-style: none;
+}
+ul img{
+	max-width: 50%;
+  	height: auto;
+	
 }
