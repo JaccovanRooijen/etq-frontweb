@@ -12,25 +12,6 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("slides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); 
-}
 
 var buttontop = document.querySelector("#top");
 
@@ -43,3 +24,33 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 console.log ("het werkt")
+
+function slider(){
+  const slider = document.querySelectorAll('.slide');
+  //Set your timer here :
+  const timer = 3000;
+  slider[0].style.display = 'block';
+  bullets = sliderBulletsCreation(slider);
+  sliderLoop(slider, timer, bullets);
+};
+
+var header = document.querySelector('.nav'); 
+var menubar = document.querySelector('.menu');
+var shopbag = document.querySelector('.shop')
+
+window.onscroll = function(){
+	var top = window.scrollY;
+	console.log(top);
+	
+	if (top >= 600){
+		header.classList.add('active')
+		menubar.classList.add('menuactive')
+		shopbag.classList.add('shopactive')
+	}
+	else{
+		header.classList.remove('active')
+		menubar.classList.remove('menuactive')
+		shopbag.classList.remove('shopactive')
+
+	}
+}
