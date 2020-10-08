@@ -3,7 +3,7 @@
   box-sizing:border-box;  
 }
 body{
-	margin: 0em 0.5em;
+	margin: 0em 0.0em;
 }
 
 
@@ -14,7 +14,7 @@ img{
 }
 
 h1{
-    font-family: montserrat; 
+    font-family: raleway; 
     font-weight: 900;
 	position: absolute;
 	text-align: center;
@@ -26,38 +26,45 @@ h1{
 
 h2{
 	width: 100%;
-	font-family: montserrat; 
+	font-family: raleway; 
 	
 	
 }
 h3{
-	 font-family: montserrat;
-	font-weight: bolder;
+	 font-family: roboto;
+	font-weight: normal;
 	margin: 10px 0px;
+	
 
 }
 p{
-    font-family: montserrat;
+    font-family: roboto;
+	font-size: 14px;
 	margin: 10px 0px;
+	color: 616161;
+	font-weight: lighter;
 }
 
+Article{
+		margin: 0em 0.85em;
+}
 /*nav*/
 .nav{
-	width: 90%;
+	width: 95%;
 	height: 2.5em;
 	background-color: transparent;
 	top: 0.3em;
-	left: 1em;
+	left: 0.5em;
 	color: white;
 	position: fixed;
 	z-index: 100;
 }
 .nav.active{
-	width: 90%;
+	width: 95%;
 	height: 2.5em;
 	background-color: white;
 	top: 0.3em;
-	left: 1em;
+	left: 0.6em;
 	color: black;
 	position: fixed;
 	z-index: 100;
@@ -115,21 +122,31 @@ p{
 }
 
 
-/* grid*/
+/*post*/
+.post, .posttekst{
+	margin: 0em 0.85em;
+}
+
+
+
+/* grid home*/
 
 .grid{
 	display:grid;
   	grid-template-columns:1fr 1fr;
-	grid-template-rows: 15em 15em;
+	grid-template-rows: 18em;
 	grid-gap: 1em;
-	padding-bottom: 4em;
+	margin: 0em 0.85em;	
+
+
 
 }
 .grid img{
-	height: 10em;
+	height: auto;
 	width: 100%;
 }
 
+/* grid detail*/
 .detailfoto {
 	display: grid;
 	width: 100%;
@@ -163,6 +180,7 @@ p{
 .bestel p{
 	text-align: center;
 	padding-top: 1em;
+	font-size: 16px;
 }
 
 .bestelknop{
@@ -226,40 +244,38 @@ button{
 }
 
 i{
-	font-size: 20px;
-	color: #9d9d9c;
+	font-size: 16px;
+	color: black;
 	padding: 0;
-
-
-	
 }
+
 #top{	
 	position: fixed;
 	bottom: 1em;
 	right: 1em;
+	justify-content: center;
 }
 
 #top:active{
 	background-color: darkgrey;
 }
-
-
+.fa-angle-up:before{
+	margin: 0 0;
+}
 
 /*footer*/
 footer{
-	background-color: darkgrey;
+	background-color: #edefee;
 }
-
-
 ul{
 	display: flex;
 	list-style: none;
-	padding: 0;
 	margin: 0 0 0 0;
-	justify-content: center;
+}
+
+li{
+	width: 100%
 }
 li img{
 	height: auto;
-	max-width: 100%;
-	padding: 0 0.25em;
 }
