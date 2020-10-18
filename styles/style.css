@@ -1,16 +1,14 @@
-/* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
 }
 body{
 	margin: 0em 0.0em;
+	animation: fadein 5s;
 }
 
 
 img{
     max-width: 100%;
-    height: 25em;
-
 }
 
 h1{
@@ -31,7 +29,7 @@ h2{
 	
 }
 h3{
-	 font-family: roboto;
+	font-family: roboto;
 	font-weight: normal;
 	margin: 10px 0px;
 	
@@ -44,10 +42,75 @@ p{
 	color: 616161;
 	font-weight: lighter;
 }
+button{
+	border-radius: 300%;
+	height: 2.5em;	
+	width: 2.5em;
+	background-color: white;
+	border: solid 1px gray;
+}
+button:focus{
+	border: solid 1px orange;
+	border-radius: 0%;
+}
+
+i{
+	font-size: 16px;
+	color: black;
+	padding: 0;
+}
 
 Article{
-		margin: 0em 0.85em;
+	margin: 0em 0.85em;
 }
+
+footer{
+	background-color: #edefee;
+}
+ul{
+	display: flex;
+	list-style: none;
+	margin: 0 0 0 0;
+}
+
+li{
+	width: 100%
+}
+li img{
+	height: auto;
+}
+
+
+/*fade in pagina*/
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoom {
+  0% {
+   transform: scale(1);
+  }
+  90% {
+   transform: scale(0.95);
+  }
+	
+  100% {
+  transform: scale(1);
+  }
+} 
+
+.detailfoto img:active {
+ 	animation-name: zoom;
+ 	animation-duration: 2s; 
+}
+
+
 /*nav*/
 .nav{
 	width: 95%;
@@ -104,21 +167,21 @@ Article{
 
 
 .carrousel {
-  position: relative;
+  	position: relative;
 	padding-bottom: 3em;
 }
 .carrousel img{
     height:100vh;
 
 }
-.tekst-in-foto {
-  color: #ffffff;
-  font-size: 35px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 2.5em;
-  width: 100%;
-  text-align: center;
+.carrousel p:nth-of-type(1) {
+  	color: #ffffff;
+  	font-size: 35px;
+  	padding: 8px 12px;
+  	position: absolute;
+  	bottom: 2.5em;
+  	width: 100%;
+  	text-align: center;
 }
 
 
@@ -137,9 +200,6 @@ Article{
 	grid-template-rows: 18em;
 	grid-gap: 1em;
 	margin: 0em 0.85em;	
-
-
-
 }
 .grid img{
 	height: auto;
@@ -152,20 +212,17 @@ Article{
 	width: 100%;
 }
 .detailfoto img{
-	display: grid;
 	height: auto;
 }
 
 /*grid-row-start / grid-column-start / grid-row-end / grid-column-end*/
-.foto1 { grid-area: 1 / 1 / 2 / 3; }
-.foto2 { grid-area: 2 / 1 / 3 / 2; }
-.foto3 { grid-area: 2 / 2 / 3 / 3; }
-.foto4 { grid-area: 3 / 1 / 4 / 3; }
-.foto5 { grid-area: 4 / 1 / 5 / 2; }
-.foto6 { grid-area: 4 / 2 / 5 / 3; }
 
-
-
+img:nth-of-type(1){ grid-area: 1 / 1 / 2 / 3; }
+img:nth-of-type(2){ grid-area: 2 / 1 / 3 / 2; }
+img:nth-of-type(3){ grid-area: 2 / 2 / 3 / 3; }
+img:nth-of-type(4){ grid-area: 3 / 1 / 4 / 3; }
+img:nth-of-type(5){ grid-area: 4 / 1 / 5 / 2; }
+img:nth-of-type(6){ grid-area: 4 / 2 / 5 / 3; }
 
 
 
@@ -198,21 +255,23 @@ Article{
 	font-weight: bold;
 }
 
-.collapsible {
-	  background-color: #ffffff;
-	  color: black;
-	  cursor: pointer;
-	  padding: 18px;
-	  width: 100%;
-	  border: none;
-	  text-align: left;
-	  outline: none;
-	  font-size: 15px;
+.info{
+	margin-bottom: 2em;
 }
 
-.active, .collapsible:hover {
+.collapsible {
 	background-color: #ffffff;
+	color: black;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	margin-bottom: 0.1em;
 }
+
 
 .collapsible:after {
 	content: '\002B';
@@ -220,10 +279,6 @@ Article{
 	font-weight: bold;
 	float: right;
 	margin-left: 5px;
-}
-
-content .active:after {
-  content: "\2212";
 }
 
 .content {
@@ -234,21 +289,13 @@ content .active:after {
   	background-color: #f1f1f1;
 }
 
-/*top-button*/
-button{
-	border-radius: 300%;
-	height: 2.5em;	
-	width: 2.5em;
-	background-color: white;
-	border: solid 1px gray;
+.terug{
+	max-height: 3em;
+	max-width: 3em;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
-
-i{
-	font-size: 16px;
-	color: black;
-	padding: 0;
-}
-
 #top{	
 	position: fixed;
 	bottom: 1em;

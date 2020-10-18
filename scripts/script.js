@@ -1,21 +1,7 @@
-var x = document.getElementsByClassName("mySlides");
-var start = 0;
-sliden();
-
-function sliden() {
-  var i;
-  
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  start++;
-  if (start > x.length) {start = 1}    
-  x[start-1].style.display = "block";  
-  setTimeout(sliden, 2000); 
-}
 
 
 
+/* Top Knop*/
 var buttontop = document.querySelector("#top");
 
 buttontop.addEventListener("click",topFunction);
@@ -30,9 +16,7 @@ function topFunction() {
 
 console.log ("het werkt")
 
-
-
-
+/* Nav animatie*/
 var header = document.querySelector('.nav'); 
 var menubar = document.querySelector('.menu');
 var shopbag = document.querySelector('.shop')
@@ -54,6 +38,22 @@ window.onscroll = function(){
 	}
 }
 
+/* Menuknop*/
+
+var menuknop = document.querySelector('.menu')
+var lijst = document.querySelector('.menulijst')
+
+menuknop.addEventListener("click", toonmenu)
+
+function toonmenu(){
+	lijst.classList.toggle(".menuItem")
+}
+
+
+
+
+
+/* Collapsible*/
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -67,4 +67,23 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = content.scrollHeight + "px";
     } 
   });
+}
+
+
+/* Slider*/
+var x = document.getElementsByClassName("mySlides");
+var start = 0;
+sliden();
+
+
+function sliden() {
+  var i;
+  
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  start++;
+  if (start > x.length) {start = 1}    
+  x[start-1].style.display = "block";  
+  setTimeout(sliden, 2000); 
 }
