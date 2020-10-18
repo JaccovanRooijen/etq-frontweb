@@ -1,6 +1,3 @@
-
-
-
 /* Top Knop*/
 var buttontop = document.querySelector("#top");
 
@@ -37,21 +34,6 @@ window.onscroll = function(){
 
 	}
 }
-
-/* Menuknop*/
-
-var menuknop = document.querySelector('.menu')
-var lijst = document.querySelector('.menulijst')
-
-menuknop.addEventListener("click", toonmenu)
-
-function toonmenu(){
-	lijst.classList.toggle(".menuItem")
-}
-
-
-
-
 
 /* Collapsible*/
 var coll = document.getElementsByClassName("collapsible");

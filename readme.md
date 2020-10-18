@@ -6,11 +6,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
-
-
+1.https://www.youtube.com/watch?v=br-		0i3U1VCA&t=151s&ab_channel=JesseShowalter
+2. https://www.youtube.com/watch?v=wmeJMOxyD-w&t=79s&ab_channel=Programster
+3. https://css-tricks.com/almanac/properties/t/transform-origin/
+4.https://www.youtube.com/watch?v=jx5jmI0UlXU&ab_channel=WebDevSimplified
+5.https://www.youtube.com/watch?v=4YQ4svkETS0&ab_channel=TraversyMedia
+6.https://css-tricks.com/almanac/selectors/n/nth-of-type/
+7.https://stackoverflow.com/questions/11679567/using-css-for-a-fade-in-effect-on-page-load
+8.https://css-tricks.com/forums/topic/viewport-height-for-full-screen-div/
+9.https://fontawesome.com/icons?d=gallery&q=insta
+10.https://www.flaticon.com/free-icon/left-arrow_120826?term=arrow%20back&page=1&position=14
+11.https://www.etq-amsterdam.com/
 
 ## Eindgesprek (week 7/8)
 
@@ -30,7 +36,34 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+
+Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat niet van mij is. De opmaak ziet er al goed uit! Nu wil ik aan de slag gaan met de post s van de website.
+
+**Screenshot(s):**
+![](screenshots/Schermafbeelding1.png)
+![](screenshots/Schermafbeelding2.png)
+![](screenshots/Schermafbeelding3.png)
+![](screenshots/Schermafbeelding4.png)
+![](screenshots/Schermafbeelding5.png)
+
+
+-screenshot(s) van hoe ver je bent-
+
+### Agenda voor meeting
+
+	-Carrousels
+	-Nav positioneren
+	-Hoeveel animaties zijn er nodig?
+	-Schalen van items
+
+### Verslag van meeting
+
+	-Kijk naar heights en widths
+	-Ga eigen carrousel maken
+	-Probeer semantischer te werken
 
 
 
