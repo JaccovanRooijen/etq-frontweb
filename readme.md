@@ -166,4 +166,4 @@ De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een 
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/dummy-image.svg)
+![](screenshots/breakdown.png)
