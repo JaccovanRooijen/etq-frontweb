@@ -158,11 +158,11 @@ De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een 
 **Je opdracht:** -https://www.etq-amsterdam.com/?gclid=CjwKCAjwqML6BRAHEiwAdquMnZf8V9XsB0f9ybF3QbAW6VtApHXvKWkuxZZqc14p54dX0_psufmmLRoCg70QAvD_BwE-
 
 **Screenshot(s):**
-[](screenshots/Schermafbeeldinga.png)
-[](screenshots/Schermafbeeldingb.png)
-[](screenshots/Schermafbeeldingc.png)
-[](screenshots/Schermafbeeldingd.png)
-[](screenshots/Schermafbeeldinge.png)
+![](screenshots/Schermafbeeldinga.png)
+![](screenshots/Schermafbeeldingb.png)
+![](screenshots/Schermafbeeldingc.png)
+![](screenshots/Schermafbeeldingd.png)
+![](screenshots/Schermafbeeldinge.png)
 
 **Breakdown-schets(en):**
 
