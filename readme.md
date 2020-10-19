@@ -28,23 +28,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
+
+
+
 ## Voortgang 3 (week 6)
 
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
 
-Mijn site begint er nu al goed uit te zien
+Mijn site begint er nu al goed uit te zien beide paginas zijn al grotendeels uitgewerkt. Het is gelukt om mijn navigatie van kleur te laten veranderen bij een bepaalde scroll waarde. Alleen is er wel een probleem met mijn javascript die mijn pagina laat crashen als het ware. Verder ziet de pagina er al bijna zo uit zoals ik mij had voorgesteld. Een nadeel is nog wel dat ik het juiste font niet kan gebruiken omdat daar een nogal groot prijskaartje aan hangt. Ook mijn grid afbeeldingen vormen nog niet helemaal mooi mee op alle soorten schermen. Ik heb ook me footer gefixt qua opmaak en positionering. Ik moet nog wel een link naar mijn detailpagina gaan bedenken en micro animaties toevoegen.
 
 **Screenshot(s):**
-![](screenshots/Schermafbeelding1.png)
-![](screenshots/Schermafbeelding2.png)
-![](screenshots/Schermafbeelding3.png)
-![](screenshots/Schermafbeelding4.png)
-![](screenshots/Schermafbeelding5.png)
 
+![](screenshots/Schermafbeelding-crash1.png)
+![](screenshots/Schermafbeelding-crash2.png)
+![](screenshots/Schermafbeeldingm.png)
+![](screenshots/Schermafbeeldingn.png)
+![](screenshots/Schermafbeeldingo.png)
+![](screenshots/Schermafbeeldingq.png)
+![](screenshots/Schermafbeeldingr.png)
+![](screenshots/Schermafbeeldings.png)
 
--screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
@@ -56,6 +61,7 @@ Mijn site begint er nu al goed uit te zien
 	
 	-Zoek op codepen voorbeelden.
 	-Zorg dat je je javascript snapt
+	-Javascript code is beetje valsspelend weg te werken maar probeer het anders. (if else)
 	
 
 
@@ -68,17 +74,17 @@ Mijn site begint er nu al goed uit te zien
 
 -dit ging goed & dit was lastig-
 
-Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat niet van mij is. De opmaak ziet er al goed uit! Nu wil ik aan de slag gaan met de post s van de website doormiddel van een grid van de website. Ik heb nog geen detailpagina, deze wil ik ook  gaan maken in de aankomende week.
+Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat niet van mij is. De opmaak ziet er al goed uit! Nu wil ik aan de slag gaan met de post s van de website doormiddel van een grid van de website. Ik heb nog geen detailpagina, deze wil ik ook  gaan maken in de aankomende week. Verder krijg ik mijn 1e "beeld" niet op fullscreen, dit wil ik nog wel graag toevoegen omdat ik het een must vind voor het eindresultaaat van de pagina.
 
 **Screenshot(s):**
-![](screenshots/Schermafbeelding1.png)
-![](screenshots/Schermafbeelding2.png)
-![](screenshots/Schermafbeelding3.png)
-![](screenshots/Schermafbeelding4.png)
-![](screenshots/Schermafbeelding5.png)
+![](screenshots/Schermafbeeldingf.png)
+![](screenshots/Schermafbeeldingg.png)
+![](screenshots/Schermafbeeldingh.png)
+![](screenshots/Schermafbeeldingi.png)
+![](screenshots/Schermafbeeldingj.png)
+![](screenshots/Schermafbeeldingk.png)
+![](screenshots/Schermafbeeldingl.png)
 
-
--screenshot(s) van hoe ver je bent-
 
 ### Agenda voor meeting
 
@@ -91,6 +97,8 @@ Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat ni
 	-Zoek op codepen voorbeelden.
 	-Zorg dat je je javascript snapt
 	
+
+
 
 
 
@@ -110,8 +118,6 @@ De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een 
 ![](screenshots/Schermafbeelding5.png)
 
 
--screenshot(s) van hoe ver je bent-
-
 ### Agenda voor meeting
 
 	-Carrousels
@@ -124,6 +130,7 @@ De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een 
 	-Kijk naar heights en widths
 	-Ga eigen carrousel maken
 	-Probeer semantischer te werken
+	-Drag slider wordt ingewikkeld en kan ik beter overslaan
 
 
 ## Intake (week 1)
