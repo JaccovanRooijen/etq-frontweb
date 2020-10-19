@@ -30,7 +30,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+
+Mijn site begint er nu al goed uit te zien
+
+**Screenshot(s):**
+![](screenshots/Schermafbeelding1.png)
+![](screenshots/Schermafbeelding2.png)
+![](screenshots/Schermafbeelding3.png)
+![](screenshots/Schermafbeelding4.png)
+![](screenshots/Schermafbeelding5.png)
+
+
+-screenshot(s) van hoe ver je bent-
+
+### Agenda voor meeting
+
+	-Grids checken
+	-Javascript gallery
+	-Javascript checken
+
+### Verslag van meeting
+	
+	-Zoek op codepen voorbeelden.
+	-Zorg dat je je javascript snapt
+	
+
+
 
 
 
@@ -40,7 +68,39 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat niet van mij is. De opmaak ziet er al goed uit! Nu wil ik aan de slag gaan met de post s van de website.
+Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat niet van mij is. De opmaak ziet er al goed uit! Nu wil ik aan de slag gaan met de post s van de website doormiddel van een grid van de website. Ik heb nog geen detailpagina, deze wil ik ook  gaan maken in de aankomende week.
+
+**Screenshot(s):**
+![](screenshots/Schermafbeelding1.png)
+![](screenshots/Schermafbeelding2.png)
+![](screenshots/Schermafbeelding3.png)
+![](screenshots/Schermafbeelding4.png)
+![](screenshots/Schermafbeelding5.png)
+
+
+-screenshot(s) van hoe ver je bent-
+
+### Agenda voor meeting
+
+	-Grids
+	-Javascript
+	-hamburgermenu
+
+### Verslag van meeting
+	
+	-Zoek op codepen voorbeelden.
+	-Zorg dat je je javascript snapt
+	
+
+
+
+## Voortgang 1 (week 3)
+
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+
+De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een stuk lastiger. Met name het positioneren en schalen van afbeeldingen heb ik moeite mee. Verder is de footer goed gelukt met flexbox en heb ik een met javascript een Toppage button toegevoegd. Daarnaast heb ik ook een collapsible toegevoegd aan mijn pagina.
 
 **Screenshot(s):**
 ![](screenshots/Schermafbeelding1.png)
@@ -66,35 +126,6 @@ Het begin is er, het coderen gaat goed maar ik heb nog te veel code staan wat ni
 	-Probeer semantischer te werken
 
 
-
-## Voortgang 1 (week 3)
-
-### Stand van zaken
-
--dit ging goed & dit was lastig-
-
-De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een stuk lastiger. Met name het positioneren en schalen van afbeeldingen heb ik moeite mee. Verder is de footer goed gelukt met flexbox en heb ik een Toppage button toegevoegd. Daarnaast heb ik ook een collapsible toegevoegd aan mijn pagina.
-
-**Screenshot(s):**
-![](screenshots/Schermafbeelding1.png)
-![](screenshots/Schermafbeelding2.png)
-![](screenshots/Schermafbeelding3.png)
-![](screenshots/Schermafbeelding4.png)
-![](screenshots/Schermafbeelding5.png)
-
-
--screenshot(s) van hoe ver je bent-
-
-### Agenda voor meeting
-
--samen met je groepje opstellen-
-
-### Verslag van meeting
-
--na afloop snel uitkomsten vastleggen-
-
-
-
 ## Intake (week 1)
 
 **Je startniveau:** Rood
@@ -104,8 +135,11 @@ De opdrachten gaan goed maar het toepassen op je eigen pagina is natuurlijk een 
 **Je opdracht:** -https://www.etq-amsterdam.com/?gclid=CjwKCAjwqML6BRAHEiwAdquMnZf8V9XsB0f9ybF3QbAW6VtApHXvKWkuxZZqc14p54dX0_psufmmLRoCg70QAvD_BwE-
 
 **Screenshot(s):**
-
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+[](screenshots/Schermafbeeldinga.png)
+[](screenshots/Schermafbeeldingb.png)
+[](screenshots/Schermafbeeldingc.png)
+[](screenshots/Schermafbeeldingd.png)
+[](screenshots/Schermafbeeldinge.png)
 
 **Breakdown-schets(en):**
 
