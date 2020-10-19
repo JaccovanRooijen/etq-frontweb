@@ -21,13 +21,29 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+In de laatste weken is er nog veel veranderd. 
+	-Ik heb bijvoorbeeld met hulp van mijn studentenassistent mijn de javascript van mijn caroussel verbeterd. 
+	-Een post verandert naar een link naar mijn detailpagina.
+	-Terugknop gemaakt naar de homepagina.
+	-Css herschreven met "nth-of-type()".
+	-Fade in micro animatie gemaakt
+	-Zoom in micro animatie gemaakt op de detailfoto's
+	-Schoonheidsfouten eruit gehaald.
+	
+Mijn site is dus afgerond. Het moeilijkste vind ik toch het feit dat alles samenhangt. Wanneer er 1 onderdeel veranderd kan de rest van de pagina zo compleet verschuiven. Een ander moeilijk punt vond ik ook het werken met "nth of type" ipv classes. Ik ben wel erg blij met het eindresultaat en vind het ook zeker op de originele pagina lijken. Ik ben met name trost op de navigatiebar die van kleur veranderd en hoe mijn caroussel uiteindelijk is geworden.
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
-
-
-
+![](screenshots/Schermafbeeldingt.png)
+![](screenshots/Schermafbeeldingu.png)
+![](screenshots/Schermafbeeldingv.png)
+![](screenshots/Schermafbeeldingw.png)
+![](screenshots/Schermafbeeldingx.png)
+![](screenshots/Schermafbeeldingy.png)
+![](screenshots/Schermafbeeldingz.png)
+![](screenshots/Schermafbeeldinga2.png)
+![](screenshots/Schermafbeeldingb2.png)
 
 
 
@@ -37,7 +53,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-Mijn site begint er nu al goed uit te zien beide paginas zijn al grotendeels uitgewerkt. Het is gelukt om mijn navigatie van kleur te laten veranderen bij een bepaalde scroll waarde. Alleen is er wel een probleem met mijn javascript die mijn pagina laat crashen als het ware. Verder ziet de pagina er al bijna zo uit zoals ik mij had voorgesteld. Een nadeel is nog wel dat ik het juiste font niet kan gebruiken omdat daar een nogal groot prijskaartje aan hangt. Ook mijn grid afbeeldingen vormen nog niet helemaal mooi mee op alle soorten schermen. Ik heb ook me footer gefixt qua opmaak en positionering. Ik moet nog wel een link naar mijn detailpagina gaan bedenken en micro animaties toevoegen.
+Mijn site begint er nu al goed uit te zien beide paginas zijn al grotendeels uitgewerkt. Het is gelukt om mijn navigatie van kleur te laten veranderen bij een bepaalde scroll waarde. Alleen is er wel een probleem met mijn javascript die mijn pagina laat crashen als het ware. Verder ziet de pagina er al bijna zo uit zoals ik mij had voorgesteld. Een nadeel is nog wel dat ik het juiste font niet kan gebruiken omdat daar een nogal groot prijskaartje aan hangt. Ook mijn grid afbeeldingen vormen nog niet helemaal mooi mee op alle soorten schermen. Ik heb ook me footer gefixt qua opmaak en positionering. Ik moet nog wel een link naar mijn detailpagina (en teruglink) gaan bedenken en micro animaties toevoegen.
 
 **Screenshot(s):**
 

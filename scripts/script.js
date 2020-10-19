@@ -14,10 +14,12 @@ function topFunction() {
 console.log ("het werkt")
 
 /* Nav animatie*/
+// Haal element op met de classes://
 var header = document.querySelector('.nav'); 
 var menubar = document.querySelector('.menu');
 var shopbag = document.querySelector('.shop')
 
+// Wanneer scroll var top scroll y meer dan 600 is -> voor funtion uit//
 window.onscroll = function(){
 	var top = window.scrollY;
 	console.log(top);
@@ -52,20 +54,46 @@ for (i = 0; i < coll.length; i++) {
 }
 
 
-/* Slider*/
-var x = document.getElementsByClassName("mySlides");
-var start = 0;
-sliden();
+// Haal element op met ID #slideshow
+var slideshow = document.getElementById('slideshow')
 
+// Haal de fotos op binnen de #slideshow element
+var images = slideshow.getElementsByTagName('img')
 
-function sliden() {
-  var i;
-  
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
+// Init counter
+var index = 0;
+
+// Functie dat de fotos wisselt zodat het lijkt op een "slideshow"
+function runSlideshow() {
+
+  // Check, als we binnen de range zitten van de (variable)images array.
+  if ((index+1) < images.length) {
+
+    // Verberg huidige image
+    images[index].style.display = 'none'
+
+    // Maak volgende image zichtbaar
+    images[index+1].style.display = 'block'
+
+    // Increment counter
+    index++
+
+  } else {
+    // Indien we niet meer in de range zitten
+    // Verberg huidige image image
+    images[index].style.display = 'none'
+
+    // Reset index (zodat deze weer bij 0 begint)
+    index = 0
+
+    // Start weer van het begin (om de cirkel af te maken)
+    images[0].style.display = 'block'
   }
-  start++;
-  if (start > x.length) {start = 1}    
-  x[start-1].style.display = "block";  
-  setTimeout(sliden, 2000); 
+
+  // Wacht twee seconden em roep de functie opnieuw op
+  setTimeout('runSlideshow()', 2000)
 }
+
+runSlideshow()
+
+
